@@ -1,0 +1,42 @@
+{
+  "name": "weatherapp",
+  "version": "0.0.1",
+  "description": "Weather application",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "NODE_ENV=development webpack-dev-server",
+    "builddev": "NODE_ENV=development webpack --display-modules -v",
+    "buildprod": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliaksandrMamonenka/weatherapp.git"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "author": "Aliaksandr_Mamonenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AliaksandrMamonenka/weatherapp/issues"
+  },
+  "homepage": "https://github.com/AliaksandrMamonenka/weatherapp#readme"
+}
